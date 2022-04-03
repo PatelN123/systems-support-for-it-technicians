@@ -54,7 +54,8 @@ export default function WithSubnavigation() {
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
         <Link href="/">
           <Image
-              boxSize='30px'
+              boxSize='25px'
+              marginRight='5px'
               objectFit='cover'
               src='logo.svg'
               display={{ base: 'none', md: 'inline-flex'}}
