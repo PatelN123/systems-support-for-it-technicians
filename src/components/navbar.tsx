@@ -57,15 +57,17 @@ export default function WithSubnavigation() {
               boxSize='30px'
               objectFit='cover'
               src='logo.svg'
-              alt='Rakhi Boxes Logo icon'
+              alt='Logo icon'
+              display={{ base: 'none', md: 'inline-flex'}}
             />
           </Link>
           <Link href="/">
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-            color={'#866d5b'}
+            color={'black'}
             className="logoicon merrifont">
-            Systems Support for IT Technicians
+            Systems Support for <Text as={'span'} color={'blue.400'}>
+              IT Technicians</Text>
           </Text>
           </Link>
  
@@ -78,8 +80,10 @@ export default function WithSubnavigation() {
           justify={'flex-end'}
           direction={'row'}
           spacing={5}>
-          href={"#"}
+          <Link href="#">
             <Button
+            display={{ base: 'none', md: 'inline-flex'}}
+            as={'a'}
             px={8}
             fontSize={'sm'}
             fontWeight={600}
@@ -90,6 +94,7 @@ export default function WithSubnavigation() {
             }}>
             Notes
           </Button>
+          </Link>
           <NextLink href="/products/#!/~/accountSettings">
           <Button
           px={8}
