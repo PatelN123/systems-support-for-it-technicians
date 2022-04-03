@@ -5,7 +5,6 @@ import Footer from '../src/components/footer'
     return (
       <>
         <Navbar />
-
         <Footer />
       </>
     )
