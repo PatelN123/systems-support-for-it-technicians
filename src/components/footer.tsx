@@ -66,7 +66,8 @@ import {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Logo />
-          <Text>© 2022 Systems Support for IT Technicians. All rights reserved</Text>
+          <Text>© 2022 Systems Support for <Text as={'span'} color={'blue.400'}>
+              IT Technicians.</Text> All rights reserved</Text>
           <Stack direction={'row'} spacing={3}>
             <SocialButton label={'Linkedin'} href={'#'}>
               <FaLinkedin />
