@@ -46,6 +46,7 @@ import {
               Github
             </Button>
           </Stack>
+          <img src="computer.png" height="800px" width="800px"></img>
           <Flex w={'full'}>
           </Flex>
         </Stack>
