@@ -21,6 +21,14 @@ import {
   useColorModeValue,
   useBreakpointValue,
   useDisclosure,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
 } from '@chakra-ui/react';
 import NextLink from 'next/link'
 export default function WithSubnavigation() {
@@ -279,39 +287,30 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: 'Customer Support Provison',
-        href: '#',
       },
       {
         label: 'Networking Principles',
-        href: '#',
       },
       {
         label: 'Visual Basic',
-        href: '#',
       },
       {
         label: 'Systems & Data Security',
-        href: '#',
       },
       {
         label: 'Maintain Equipment & Systems',
-        href: '#',
       },
       {
         label: 'Software Installation',
-        href: '#',
       },
       {
         label: 'Testing Equipment',
-        href: '#',
       },
       {
         label: 'Repair Centre Procedures',
-        href: '#',
       },
       {
         label: 'Install & Configure Networks',
-        href: '#',
       },
     ],
   },
