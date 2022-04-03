@@ -57,7 +57,6 @@ export default function WithSubnavigation() {
               boxSize='30px'
               objectFit='cover'
               src='logo.svg'
-              alt='Logo icon'
               display={{ base: 'none', md: 'inline-flex'}}
             />
           </Link>
@@ -95,7 +94,7 @@ export default function WithSubnavigation() {
             Notes
           </Button>
           </Link>
-          <NextLink href="/products/#!/~/accountSettings">
+          <NextLink href="https://github.com/AyazZafar/systems-support-for-it-technicians">
           <Button
           px={8}
             fontSize={'sm'}
