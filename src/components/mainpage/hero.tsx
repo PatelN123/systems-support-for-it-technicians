@@ -21,7 +21,7 @@ import {
             lineHeight={'110%'}>
             Systems Support for{' '}
             <Text as={'span'} color={'blue.400'}>
-              IT Technicians</Text> (Notes)
+              IT Technicians</Text> Level 2 (Notes)
           </Heading>
           <Text color={'gray.500'} maxW={'3xl'}>
           All notes for <Text as={'span'} color={'blue.400'}>Systems Support for IT Technicians, </Text> 
