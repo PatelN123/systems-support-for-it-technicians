@@ -8,14 +8,14 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+  import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
   import { ReactNode } from 'react';
   
   const Logo = (props: any) => {
     return (
       <svg
         height={32}
-        viewBox="0 0 120 28"
+        viewBox="0 0 12 \28"
         xmlns="http://www.w3.org/2000/svg"
         {...props}>
         <path
@@ -76,15 +76,15 @@ import {
           align={{ base: 'center', md: 'center' }}>
           <Logo />
           <Text>© 2022 Systems Support for IT Technicians. All rights reserved</Text>
-          <Stack direction={'row'} spacing={6}>
+          <Stack direction={'row'} spacing={3}>
+            <SocialButton label={'Linkedin'} href={'#'}>
+              <FaLinkedin />
+            </SocialButton>
+            <SocialButton label={'Github'} href={'#'}>
+              <FaGithub />
+            </SocialButton>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />
-            </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
-            </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
-              <FaInstagram />
             </SocialButton>
           </Stack>
         </Container>
