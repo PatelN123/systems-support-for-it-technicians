@@ -277,15 +277,39 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Notes',
     children: [
       {
-        label: 'Privacy Policy',
+        label: 'Customer Support Provison',
         href: '#',
       },
       {
-        label: 'Returns Policy',
+        label: 'Networking Principles',
         href: '#',
       },
       {
-        label: 'Terms and Conditions',
+        label: 'Visual Basic',
+        href: '#',
+      },
+      {
+        label: 'Systems & Data Security',
+        href: '#',
+      },
+      {
+        label: 'Maintain Equipment & Systems',
+        href: '#',
+      },
+      {
+        label: 'Software Installation',
+        href: '#',
+      },
+      {
+        label: 'Testing Equipment',
+        href: '#',
+      },
+      {
+        label: 'Repair Centre Procedures',
+        href: '#',
+      },
+      {
+        label: 'Install & Configure Networks',
         href: '#',
       },
     ],
