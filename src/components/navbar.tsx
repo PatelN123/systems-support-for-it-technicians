@@ -97,6 +97,7 @@ export default function WithSubnavigation() {
           </Link>
           <NextLink href="https://github.com/AyazZafar/systems-support-for-it-technicians">
           <Button
+            display={{ base: 'none', md: 'inline-flex'}}
           px={8}
             fontSize={'sm'}
             fontWeight={600}
